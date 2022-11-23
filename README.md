@@ -8,7 +8,7 @@
 
 Название          | Статус | Ссылка
 ------------------|--------|--------
-HOMEWORK1         | 🟡    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/mainsecond/HOMEWORK1">Ссылка</a>
+HOMEWORK1         | 🟡    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/HOMEWORK1">Ссылка</a>
 Автопарк          | 🔴    | 
 
 **Статусы выполнения:** <br>
