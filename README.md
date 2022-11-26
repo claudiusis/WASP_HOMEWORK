@@ -9,7 +9,7 @@
 Название          | Статус | Ссылка
 ------------------|--------|--------
 HOMEWORK1         | 🟡    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/HOMEWORK1">Ссылка</a>
-Автопарк          | 🔴    | 
+Автопарк          | 🟡    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/Autopark">Ссылка</a>
 
 **Статусы выполнения:** <br>
 🔴 Не готово <br>
