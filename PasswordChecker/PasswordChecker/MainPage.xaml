@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PasswordChecker.MainPage">
+
+    <Grid x:Name="Grid"
+        RowDefinitions="2.5*,*,*,*,*"
+        ColumnDefinitions="*,*,*">
+        <Button Grid.Row="1" Grid.Column="0" Text="1" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="1" Grid.Column="1" Text="2" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="1" Grid.Column="2" Text="3" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="2" Grid.Column="0" Text="4" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="2" Grid.Column="1" Text="5" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="2" Grid.Column="2" Text="6" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="3" Grid.Column="0" Text="7" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Text="8" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Text="9" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+        <Button Grid.Row="4" Grid.Column="1" Text="0" BorderWidth="0.5" BorderColor="Gray" Clicked="NumClick"></Button>
+
+        <Button Grid.Row="4" Grid.Column="0" Text="╳" BorderWidth="0.5" BorderColor="Gray" Clicked="crossClick"></Button>
+        <Button Grid.Row="4" Grid.Column="2" Text="✓" BorderWidth="0.5" BorderColor="Gray" Clicked="tickClick"></Button>
+
+        <Label x:Name="DisplayLabel" Grid.ColumnSpan="3" FontSize="40" HorizontalTextAlignment="End" VerticalTextAlignment="End" Margin="0,0,20,20"/>
+
+    </Grid>
+
+</ContentPage>
