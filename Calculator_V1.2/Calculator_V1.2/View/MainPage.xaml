@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator_V1._2.View.MainPage"
+             xmlns:viewmodel="clr-namespace:Calculator_V1._2.ViewModel"
+             xmlns:model="clr-namespace:Calculator_V1._2.Model"
+             x:DataType="viewmodel:CalcViewModel">
+    <Grid RowDefinitions="2.5*,*,*,*,*" ColumnDefinitions="*,*,*,*">
+        <Button x:Name="Test" Grid.Row="1" Grid.Column="0" Text="7" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35"  Command="{Binding DigitPressed}" CommandParameter="7"></Button>
+        <Button Grid.Row="1" Grid.Column="1" Text="8" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35"  Command="{Binding DigitPressed}" CommandParameter="8"></Button>
+        <Button Grid.Row="1" Grid.Column="2" Text="9" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding DigitPressed}" CommandParameter="9"></Button>
+        <Button Grid.Row="1" Grid.Column="3" Text="AC" TextColor="White" BackgroundColor="OrangeRed" VerticalOptions="CenterAndExpand" Padding="0,35" Command="{Binding ClearPressed}"></Button>
+
+        <Button Grid.Row="2" Grid.Column="0" Text="4" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding DigitPressed}" CommandParameter="4"></Button>
+        <Button Grid.Row="2" Grid.Column="1" Text="5" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding DigitPressed}" CommandParameter="5"></Button>
+        <Button Grid.Row="2" Grid.Column="2" Text="6" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding DigitPressed}" CommandParameter="6"></Button>
+        <Button Grid.Row="2" Grid.Column="3" Text="÷" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding SignPressed}" CommandParameter="÷"></Button>
+
+        <Button Grid.Row="3" Grid.Column="0" Text="1" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding DigitPressed}" CommandParameter="1"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Text="2" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding DigitPressed}" CommandParameter="2"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Text="3" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding DigitPressed}" CommandParameter="3"></Button>
+        <Button Grid.Row="3" Grid.Column="3" Text="×" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding SignPressed}" CommandParameter="×"></Button>
+
+        <Button Grid.Row="4" Grid.Column="0" Text="=" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding EqualPressed}" CommandParameter="{Binding Labelstr}"></Button>
+        <Button Grid.Row="4" Grid.Column="1" Text="0" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding DigitPressed}" CommandParameter="0"></Button>
+        <Button Grid.Row="4" Grid.Column="2" Text="+" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding SignPressed}" CommandParameter='+'></Button>
+        <Button Grid.Row="4" Grid.Column="3" Text="-" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="35" Command="{Binding SignPressed}" CommandParameter='-'></Button>
+
+        <Label x:Name="CalcLabel" Grid.Row="0" Grid.ColumnSpan="4" VerticalTextAlignment="End"
+               HorizontalTextAlignment="End" Margin="0,0,10,10" FontSize="40" Text="{Binding Labelstr}"/>
+    </Grid>
+
+
+</ContentPage>

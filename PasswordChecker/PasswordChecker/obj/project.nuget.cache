@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OFIs+7LmLEsFEkvG57UvPuP78bzCIC5CjJSAqUkf80E77j6jHryEyw/SwZxXmVVzAjFdZ+KqKcwSRz6aZgnKNw==",
+  "dgSpecHash": "8yqcUwSyNW0PwTo2S0cX8tBlSdcTsqu/jv8IFX7XKluB6w7ufaPncCtyhw6mVUsoJdJmrWc92FUBgimWgJbg6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikitos\\Desktop\\WASP COURSES\\WASP\\PasswordChecker\\PasswordChecker\\PasswordChecker.csproj",
+  "projectFilePath": "C:\\Users\\Nikitos\\Desktop\\WASP HOMEWORK\\PasswordChecker\\PasswordChecker\\PasswordChecker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikitos\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Nikitos\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
