@@ -81,9 +81,6 @@ namespace Calculator_V1._2.ViewModel
         {
             try
             {
-                Console.WriteLine("action: " + calculator.Action);
-                Console.WriteLine("action: " + calculator.Action);
-                Console.WriteLine("str: " + str);
                 if (calculator.Action != default)
                 {
                     if (Labelstr.Split('\n').Length == 2)
@@ -92,7 +89,7 @@ namespace Calculator_V1._2.ViewModel
                         str= Labelstr.Split('\n').Last();
                     }
 
-                    if (Labelstr.Split(calculator.Action).First() == "" || Labelstr.Split(calculator.Action).Last() == "")
+                    if ((Labelstr.Split(calculator.Action).Length == 2)&&(Labelstr.Split(calculator.Action).First() == "" || Labelstr.Split(calculator.Action).Last() == ""))
                     {
                         return;
                     }
