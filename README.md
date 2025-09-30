@@ -10,9 +10,9 @@
 ------------------|--------|--------
 HOMEWORK1         | 🟢    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/HOMEWORK1">Ссылка</a>
 Автопарк          | 🟢    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/Autopark">Ссылка</a>
-DiskStore         | 🟡    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/DiskStore">Ссылка</a>
-PasswordChecker   | 🟡    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/PasswordChecker">Ссылка</a>
-Calculator MVVM   | 🟡    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/Calculator_V1.2">Ссылка</a>
+DiskStore         | 🟢    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/DiskStore">Ссылка</a>
+PasswordChecker   | 🟢    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/PasswordChecker">Ссылка</a>
+Calculator MVVM   | 🟢    | <a href="https://github.com/claudiusis/WASP_HOMEWORK/tree/main/Calculator_V1.2">Ссылка</a>
 
 **Статусы выполнения:** <br>
 🔴 Не готово <br>
